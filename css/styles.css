@@ -1,0 +1,155 @@
+/*
+display:block;
+position:relative;
+width:number%;
+float:left;
+*/
+
+body {
+	font-size: 1em;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-image: url('../images/random_grey_variations.png');
+}
+/* ************ LIKS ************ */
+
+/* http://www.paulund.co.uk/how-to-create-a-pure-css-glow-text-on-hover */
+
+a:link {
+	color: #fff;
+	-webkit-transition: all 0.3s ease-in; /*Safari & Chrome*/
+	transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in; /* Firefox 4 */
+	-o-transition: all 0.3s ease-in; /* Opera */
+	text-decoration: none;
+}
+a:visited {
+	color: #B2B3AE;
+}
+a:hover {
+	-webkit-stroke-width: 5.3px;
+	-webkit-stroke-color: #FFFFFF;
+	-webkit-fill-color: #FFFFFF;
+	text-shadow: 1px 0px 20px #fff;
+	-webkit-transition: width 0.3s; /*Safari & Chrome*/
+	transition: width 0.3s;
+	-moz-transition: width 0.3s; /* Firefox 4 */
+	-o-transition: width 0.3s; /* Opera */
+}
+a:active {
+	color: #131315;
+}
+/* ************ SELECTORS ************ */
+
+header {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	background-color: #131315;
+	margin: 0px;
+	padding: 15px 0px 0px 0px;
+}
+h1 {
+	margin: 0px;
+	padding: 10px;
+	color: #fff;
+}
+h2 {
+	margin: 0px;
+	padding: 10px;
+}
+img {
+	display: block;
+	float: right;
+	clear: none;
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+ul.a {
+	list-style-type: circle;
+}
+ul.b {
+	list-style-type: square;
+}
+table {
+	color: #131315;
+	font-weight: bold;
+	font-size: 1.1em;
+	border-style: solid;
+	border-color: #fff;
+	clear: none;
+	float: left;
+	margin: 20px auto;
+	padding: 5px;
+	background-image: url('../images/grey.png');
+}
+table a:link {
+	color: #131315;
+}
+td {
+	border-style: none;
+}
+th {
+	border-style: none;
+	font-size: 1.2em;
+	text-align: left;
+	text-decoration: underline;
+}
+/* ************ IDs ************ */
+
+#wrapper {
+	margin: 0px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: justify;
+	padding: 0px;
+	width: 100%;
+	min-width: 240px;
+}
+
+#nav {
+	display: block;
+	position: relative;
+	width: 20%;
+	float: left;
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+	height: 200px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	min-width: 120px;
+}
+#main {
+	display: block;
+	position: relative;
+	width: 60%;
+	float: left;
+	color: #fff;
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+}
+#right {
+	display: block;
+	position: relative;
+	width: 20%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#footer {
+	background-color: #131315;
+	height: 100%;
+	width: 100%;
+	margin: 4px auto 0px;
+	padding: 0px;
+	min-width: 240px;
+	display: block;
+	position: relative;
+	float: left;
+	clear: both;
+}
