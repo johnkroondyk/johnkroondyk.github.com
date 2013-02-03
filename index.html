@@ -296,7 +296,7 @@ You may model the scripts on those demonstrated in class or on the Web, but they
 				
 				$.ajax({
 					type: 'POST',
-					url: 'sendmessage.php',
+					url: './sendmessage.php',
 					data: $("#contact").serialize(),
 					success: function(data) {
 						if(data == "true") {
