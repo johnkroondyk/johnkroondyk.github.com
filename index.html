@@ -1,62 +1,329 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>John Kroondyk | Resume</title>
+<link rel="stylesheet" href="./css/styles.css" type="text/css" media="screen" />
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="John Kroondyk : " />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<!-- popup include from http://designwoop.com/2012/07/tutorial-coding-a-jquery-popup-modal-contact-form/ -->
 
-    <title>John Kroondyk</title>
-  </head>
+<link rel="stylesheet" type="text/css" media="all" href="./css/style.css">
+<link rel="stylesheet" type="text/css" media="all" href="./fancybox/jquery.fancybox.css">
 
-  <body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="./fancybox/jquery.fancybox.js?v=2.0.6"></script>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/johnkroondyk">View on GitHub</a>
+<style media="screen" type="text/css">
+/* Add style rules here */
 
-          <h1 id="project_title">John Kroondyk</h1>
-          <h2 id="project_tagline"></h2>
 
-        </header>
+
+body {
+}
+</style>
+
+<!--
+	Make your resume include/comply-with at least the following:
+
+    	Address as many errors and warnings of level 3/AAA of the W3C's Web Content Accessibility Guidelines 1.0 as is possible for your code. If you want me to grade for 2.0 level AAA as well, please tell me in your submission email. Note that it is unclear what standards WebAIM/WAVE checks. I recommend Aborla or AChecker for this assignment.
+
+    	Add a contact form, which includes at least these features:
+
+        Three different types of form input elements (i.e., 1 radio button(s) + 1 checkbox(es) + 1 text field(s) = 3; not three radio buttons = 3)
+
+        A PHP script that generates a message page that the user views after submitting comments to the form, as well as shows the user what they had input into the form. The message should not lose the architecture of your resume, and should follow the assignment guidelines.
+
+    	At least one client-side jQuery script that you have seen in class or on the Web. Note that this does not include iframes.
+
+	Your resume should still have the following content:
+
+    	A photographic image (using the img element)
+    	A table of contents with in-page anchors to the content sections
+    	At least three content sections as well as a sub-section in at least one of the content sections (e.g., within Skills, a sub-section each for computer skills, languages, etc.), an HTML table (using the table element), and several links.
+    	You may add more content at your whim.
+
+You may model the scripts on those demonstrated in class or on the Web, but they must fit naturally into the code of your webpage. If you use someone else's code, cite them in an HTML, CSS, JavaScript, or PHP comment within the code.
+-->
+
+</head>
+
+<body>
+<div id="wrapper">
+  <header> <a id="top"></a>
+    <h1 style="color:#B2B3AE;padding:10px;"><a href="#connect">John Francis Kroondyk</a></h1>
+  </header>
+  <!--#header--> 
+  
+  <!-- ************ -->
+  
+  <div id="nav">
+    <p><a href="#education">Education</a><br />
+      <br />
+    </p>
+    <p><a href="#skills">Skills</a><br />
+      <br />
+    </p>
+    <p><a href="#work">Work</a><br />
+      <br />
+    </p>
+    <p><a href="#conf">Conferences</a><br />
+      <br />
+    </p>
+    <p><a href="#connect">Contact</a><br />
+      <br />
+    </p>
+  </div>
+  
+  <!-- ************ -->
+  
+  <div id="main">
+    <p>Welcome to my online r&eacute;sum&eacute;!</p>
+    <br />
+    <p>I'm currently working on my MLS and MA in Latin American and Caribbean Studies at Indiana University. My work with <a href="http://www.indiana.edu/~clacs" title="IU Center for Latin American and Caribbean Studies">CLACS</a> has revolved around contemporary Brazil, as my background in Spanish left a gap in my knowledge of such an imporant country.</p>
+    <br />
+    <p>At the same time, I've been honing my skills in <a href="http://www.slis.indiana.edu" title="School of Library and Information Science">Library Science</a> as a future information professional. This has led me to focus on web design and development, as the Internet will only continue to transform the way we meet our information needs.</p>
+    <br />
+    <p>Simply scroll down to find out more about me, or skip to any section you'd like using the links to the left. I'd love to have the chance to talk to you more about my background and skills, so please don't hesitate to send me a message. I look forward to hearing from you!</p>
+    <hr />
+    <a href="#top"> <img src="./images/glyphicons_218_circle_arrow_top.png" alt="up arrow" width="26" height="26" /></a> <br />
+    <br />
+    <a id="education"></a>
+    <h1>Education</h1>
+    <table style="width:100%;border-style:solid;border-color:#131315;">
+      <tr>
+        <th colspan="2" style="text-decoration:underline;">Degree</th>
+        <th style="text-decoration:underline;">Institution</th>
+      </tr>
+      <tr>
+        <td><br />
+          Master of Library Science<br />
+          <br /></td>
+        <td rowspan="2">August 2013</td>
+        <td rowspan="2"><a href="http://www.iu.edu">Indiana University<br />
+          Bloomington, Indiana</a></td>
+      </tr>
+      <tr>
+        <td>Master of Arts<br />
+          Latin American and Caribbean Studies<br />
+          <br /></td>
+      </tr>
+      <tr>
+        <td>Bachelor of Arts<br />
+          Spanish and International Studies</td>
+        <td>May 2008</td>
+        <td><a href="http://www.aquinas.edu">Aquinas College<br />
+          Grand Rapids, Michigan</a></td>
+      </tr>
+    </table>
+    <br style="clear:both;" />
+    <hr />
+    <a href="#top"> <img src="./images/glyphicons_218_circle_arrow_top.png" alt="up arrow" width="26" height="26" /></a> <br />
+    <br />
+    <a id="skills"></a>
+    <h1>Skills</h1>
+    <div style="display:block;margin:0px auto;text-align:center;width:100%;">
+      <table style="border-style:soli;border-color:#fff;margin:10px auto;">
+        <tr>
+          <th>Tech Proficiency</th>
+        </tr>
+        <tr>
+          <td>MAC and PC</td>
+        </tr>
+        <tr>
+          <td>MS Office Suite</td>
+        </tr>
+        <tr>
+          <td>Adobe Creative Suite</td>
+        </tr>
+      </table>
+      <table style="border-style:soli;border-color:#fff;margin:10px auto;">
+        <tr>
+          <th>Web Development</th>
+        </tr>
+        <tr>
+          <td>HTML5 / CSS3</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+        </tr>
+        <tr>
+          <td>PHP</td>
+        </tr>
+      </table>
+      <table style="border-style:soli;border-color:#fff;margin:10px auto;">
+        <tr>
+          <th>Language Fluency</th>
+        </tr>
+        <tr>
+          <td>English</td>
+        </tr>
+        <tr>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <td>Portuguese</td>
+        </tr>
+      </table>
+    </div>
+    <br style="clear:both;" />
+    <hr />
+    <a href="#top"> <img src="./images/glyphicons_218_circle_arrow_top.png" alt="up arrow" width="26" height="26" /></a> <br />
+    <br />
+    <a id="work"></a>
+    <h1>Work Experience</h1>
+    <ul class="a">
+      <li><i>Graduate Assistant</i><br />
+        Center for Latin American &amp; Caribbean Studies, Bloomington IN<br />
+        2011 - Present<br />
+        <br />
+      </li>
+      <li><i>Outdoor Educator</i><br />
+        Blandford Nature Center, Grand Rapids, MI<br />
+        <br />
+        <ul class="b">
+          <li><i>Day Camp Counselor</i><br />
+            Summer 2010 &amp; Summer 2011<br />
+            <br />
+          </li>
+          <li><i>Outdoor Education Instructor</i><br />
+            September 2009 - June 2010<br />
+            <br />
+          </li>
+          <li><i>Americorps Program VISTA</i><br />
+            August 2008 -  August 2009<br />
+            <br />
+          </li>
+        </ul>
+      </li>
+      <li><i>Circulation Assistant</i><br />
+        Grace Hauenstein Library at Aquinas College, Grand Rapids, MI<br />
+        January 2005 - August 2008<br />
+      </li>
+    </ul>
+    <hr />
+    <a href="#top"> <img src="./images/glyphicons_218_circle_arrow_top.png" alt="up arrow" width="26" height="26" /></a> <br />
+    <br />
+    <a id="conf"></a>
+    <h1>Conference Presentations</h1>
+    <ul class="b">
+      <li><i>Viva Tropicália: Covering the Movement and its Legacy</i><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;SALALM LVII – Popular Culture: Arts and Social Change in Latin America<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;Port of Spain, Trinidad – June 18, 2012<br />
+        <br />
+      </li>
+      <li><i>Climate Justice: Latin American Responses to Global Warming</i><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;11th Latin American Studies Conference on the Americas<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;Grand Valley State University – November 6, 2010<br />
+        <br />
+      </li>
+      <li><i>How Trade Policies Impact Immigration – NAFTA &amp; CAFTA</i><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;10th Latin American Studies Conference on the Americas<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;Grand Valley State University – March 21, 2009<br />
+        <br />
+      </li>
+      <li><i>Zapatista Responses to Neoliberalism in Mexico</i><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;9th Latin American Studies Conference on the Americas<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;Grand Valley State University – October 14, 2006<br />
+        <br />
+      </li>
+    </ul>
+  </div>
+  <!--#main-->
+  
+  <div id="right">
+    <p></p>
+  </div>
+  <div id="footer"> <a id="connect"></a>
+    <div style="display:block;float:left;width:30%;padding:20px;">
+      <p style="color:#B2B3AE;"><a class="modalbox" href="#inline"><strong>Contact</strong></a><br />
+        &copy; 2013 John Kroondyk</p>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <blockquote>
-<p>Morbi libero enim, facilisis eget tristique iaculis, rutrum eu sapien.</p>
-</blockquote>
+<!-- popup include from http://designwoop.com/2012/07/tutorial-coding-a-jquery-popup-modal-contact-form/ -->
 
-<h1>header 1</h1>
+<!-- hidden inline form -->
+<div id="inline">
+	<h2>Send me a message</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet nulla vitae nibh ullamcorper sit amet porta tellus pellentesque. Curabitur in augue felis, dapibus facilisis nibh. Cras nunc nisi, cursus ac semper sed, gravida a lacus. Duis a sapien eget sem consequat auctor non ultrices magna. Donec et enim lectus, et placerat tellus. Nulla facilisi. Etiam ullamcorper, massa id ultricies pulvinar, felis mauris iaculis enim, eget tempus mi orci non velit. Nulla imperdiet mi non lectus laoreet vitae semper leo sodales. Aliquam erat volutpat.</p>
+	<form id="contact" name="contact" action="#" method="post">
+		<label for="email">Your email</label>
+		<input type="email" id="email" name="email" class="txt">
+		<br>
+		<label for="msg">Message</label>
+		<textarea id="msg" name="msg" class="txtarea"></textarea>
+		
+		<button id="send">Send email</button>
+	</form>
+</div>
 
-<h2>header 2</h2>
+<!-- basic fancybox setup -->
+<script type="text/javascript">
+	function validateEmail(email) { 
+		var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		return reg.test(email);
+	}
 
-<ul>
-<li>item</li>
-<li>item</li>
-</ul><h3>header 3</h3>
+	$(document).ready(function() {
+		$(".modalbox").fancybox();
+		$("#contact").submit(function() { return false; });
 
-<ol>
-<li>first example</li>
-<li>second example</li>
-</ol>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+		
+		$("#send").on("click", function(){
+			var emailval  = $("#email").val();
+			var msgval    = $("#msg").val();
+			var msglen    = msgval.length;
+			var mailvalid = validateEmail(emailval);
+			
+			if(mailvalid == false) {
+				$("#email").addClass("error");
+			}
+			else if(mailvalid == true){
+				$("#email").removeClass("error");
+			}
+			
+			if(msglen < 4) {
+				$("#msg").addClass("error");
+			}
+			else if(msglen >= 4){
+				$("#msg").removeClass("error");
+			}
+			
+			if(mailvalid == true && msglen >= 4) {
+				// if both validate we attempt to send the e-mail
+				// first we hide the submit btn so the user doesnt click twice
+				$("#send").replaceWith("<em>sending...</em>");
+				
+				$.ajax({
+					type: 'POST',
+					url: 'sendmessage.php',
+					data: $("#contact").serialize(),
+					success: function(data) {
+						if(data == "true") {
+							$("#contact").fadeOut("fast", function(){
+								$(this).before("<p><strong>Success!</strong></p>");
+								setTimeout("$.fancybox.close()", 1000);
+							});
+						}
+					}
+				});
+			}
+		});
+	});
+</script>
     
-
-  </body>
+    
+    
+    <!-- 
+              <a href="mailto:contact@email.net"><img src="./images/glyphicons_010_envelope.png" alt="email" width="24" height="20" style="float:left;" /></a>   <a href="mailto:contact@email.net"><img src="./images/glyphicons_010_envelope.png" alt="email" width="24" height="20" style="float:left;" /></a>   
+<a href=""><img src="./images/glyphicons_169_phone.png" alt="phone" width="15" height="24" style="float:left;" /></a>
+               <a href="http://www.facebook.com" target="blank"><img src="./images/glyphicons_410_facebook.png" alt="facebook" width="24" height="24" style="float:left;" /></a>
+                <a href="http://www.twitter.com" target="blank"><img src="./images/glyphicons_411_twitter.png" alt="twitter" width="24" height="24" style="float:left;" /></a> --> 
+    
+    <img src="./images/john.jpg" alt="John" style="width:20%;padding:30px 20px 0px 0px" /> </div>
+  <!--#footer--> 
+  
+</div>
+<!--#wrapper-->
+</body>
 </html>
